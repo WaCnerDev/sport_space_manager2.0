@@ -30,7 +30,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
 Ejecute dentro del repositorio del proyecto:
 ```bash
-### `npm start`
+npm start
 ```
 
 Ejecuta la aplicación en modo de desarrollo.\
