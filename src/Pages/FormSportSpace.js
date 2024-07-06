@@ -97,6 +97,16 @@ export default function FormSportSpace({ setRegistros }) {
       });
     } else {  //sino escriba los valores del form utilizando la funcion que recibio como parametro
       setRegistros(SpaceInf);
+      toast.success("Se ha registrado el espacio con éxito", {
+        position: "bottom-center",
+        autoClose: 5000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
 
       //restablesca los valores del formulario y los errores registrados hasta el momento
       setSpaceInf({

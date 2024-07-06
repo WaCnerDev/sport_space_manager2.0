@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import FormSportSpace from "./Pages/FormSportSpace";
 import SpaceManager from "./Pages/SpaceManager";
-import { toast } from "react-toastify";
 
 
 
@@ -12,16 +11,6 @@ function App() {
 
   const addRegistro = (newRegistro) => {
     setRegistros((prevRegistros) => [...prevRegistros, newRegistro]);
-    toast.success("Se ha registrado el espacio con éxito", {
-      position: "bottom-center",
-      autoClose: 5000,
-      hideProgressBar: true,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-    });
   };
 
 
