@@ -6,20 +6,25 @@
   box-sizing: border-box;
 }
 
-#mainContainer{
+#mainContainer {
   display: flex;
   align-items: center;
   height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color:#272727;
+  color: #fff;
 }
 
-.containerForm{
-  border: 2px solid black;
+.containerForm {
+  border: 2px solid rgb(9, 121, 65);
   margin: 10px 0px;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: rgba(66, 148, 110, 0.30) 0px 10px 24px;
 }
 
-#btnContainers{
+#btnContainers {
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
