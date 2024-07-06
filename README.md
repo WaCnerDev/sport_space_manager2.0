@@ -14,8 +14,8 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 1. **Clonar el repositorio**
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   cd tu-repositorio
+   git clone https://github.com/WaCnerDev/sport_space_manager2.0.git
+   cd sport_space_manager2.0
    ```
 
 2. **Instalar dependencias**
